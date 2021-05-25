@@ -4,5 +4,5 @@ public class TestData {
             monthOfBirth = "November",
             yearOfBirth = "1922";
 
-    static String dateOfBirth = monthOfBirth.concat(" ").concat(dayOfBirth).concat(", ").concat(yearOfBirth);
+    static String dateOfBirth = String.format("%s %s, %s", monthOfBirth, dayOfBirth, yearOfBirth);
 }
